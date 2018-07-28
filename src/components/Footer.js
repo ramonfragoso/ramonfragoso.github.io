@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
     return (
       <footer className="footer animated fadeInUp">
         <div>
-          &copy; Made With <img width='11' heigth='11' src={love} /> by Ramon Fragoso 2018. Hosted by GitHub Pages.
+          &copy; Made With <img width='11' heigth='11' src={love} /> by Ramon Fragoso 2018. Hosted by Netlify.
         </div>
       </footer>
     )
