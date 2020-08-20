@@ -51,11 +51,20 @@
   color: #666;
 }
 
-.profpic {
-  margin-bottom: 10%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-  border-radius: 5%;
+.profpic-container {
+  width: 100
 }
+
+.profpic {
+  box-shadow: -10px 10px 0px 3px rgba(255,0,255,1);
+  transition: ease-in-out 0.2s;
+}
+
+.profpic:hover {
+  transform:translate(10px, -10px);
+  /* box-shadow: -20px 20px 0px 3px rgba(255,0,255,1); */
+}
+
 
 hr.linha {
   height: 30px;

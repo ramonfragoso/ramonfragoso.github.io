@@ -7,7 +7,9 @@ export default class leftColumn extends React.Component {
   render () {
     return (
       <div className='column left animated fadeInLeft'>
-        <img className="profpic" src={prof_pic} width='110%' heigth='110%' border='10'/>
+        <div className="profpic-container">
+        <img className="profpic" src={prof_pic} />
+        </div>
         <div>
           <p/><font face='courier new'>Campina Grande, PB</font>
           <p/><font face='courier new'>20 yo</font>
